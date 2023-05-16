@@ -1,2 +1,2 @@
 # odin-recipes
-Practice HTML by building a basic recipes website
+Building a basic recipe website using HTML
