@@ -1,34 +1,42 @@
 h2 {
-    background-color: #90ee90;
     color: #000000;
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
+    font-style: italic;
     text-align: left;
 }
 
 h1 {
-    background-color: #add8e6;
     font-style: italic;
 }
 
-#indexheader {
-    display: inline;
+.indexheader {
+    margin-bottom: 20px;
 }
 
 img {
+    display: block;
     width: 500px;
     height: auto;
+    margin: 0 auto;
 }
 
 .recipename {
+    display: inline-block;
     font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #000000;
+    padding: 5px;
 }
 
 body {
-    background-color: beige;
+    background-color: #f3d8af;
 }
 
-.ingredients {
-    font-size: 32;
+.recipecontent {
+    box-sizing: border-box;
+    width: 600px;
+    margin: 5px auto;
+    padding: 10px 10px;
+    border: 2px solid #000000;
 }
